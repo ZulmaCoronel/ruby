@@ -17,7 +17,6 @@ require "faker"
          puts "VEHICULO: #{Faker::Vehicle.make_and_model}"
          puts "FECHA Y HORA DE REGRISTRO: #{Faker::Time.between(DateTime.now - 1, DateTime.now)}"
          puts""
-   
         end
     
 
